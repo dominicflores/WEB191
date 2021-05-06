@@ -1,0 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
+namespace webjava
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}
+< !DOCTYPE html >
+ < html lang = "en" >
+  < head >
+  
+      < meta charset = "UTF-8" >
+   
+       < meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+      
+          < title > My Gram </ title >
+         </ head >
+         <table>
+         < body >
+             My Gram
+             < button type = "button" > Log in</ button >
+              
+                  < button type = "button" > Sign up </ button >
+                   
+                       < br >
+                   
+                       < br >
+                       Image 1 Image 2 Image 3 Image 4 Image 5
+                       < br >
+                   
+                       < br >
+                       Image 6 image 7 image 8 image 9 image 10
+                       <br>
+                       image 11 image 12 image 13 image 14 image 15 image 16
+                        <br> image 17 image 18 image 19 image 20
+                        <br>
+                        image 21 image 22 image 23 image 24 image 25 
+                       < br>
+
+                       About Blog Jobs Help
+                      <table/>
+    <br>
+    English 2021 MyGram
+    <div id="Image" class= "Image 1" >
+        < span id = "FirstSpan" > Image </ span >
+ 
+     </ div >
+        input = Text add first name here  input = Text add last name
+        input = "button" = "male" "female" "prefered not to say"
+     < script >
+         var FirstSpan = document.getElementById("Image");
+var div = document.getElementsByClassName(Image 1);
+var newSpan = document.createElement(Span);
+newSpan.setAttribute("id", "secondspan");
+var newText = document.createTextNode(This is a text);
+newSpan.appendChild(newText);
+div[0].insertBefore(newSpan, FirstSpan);
+alert(click to continue)function
+    m = moment('5/10/2010', '01-01-1998')
+</ script >
+
+</ body >
+
+</ html >
+</ body >
+</html>
